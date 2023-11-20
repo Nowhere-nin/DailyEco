@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MyCodesActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="111dp"
+        android:text="Mis Códigos"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnBackCodes"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imvProductCode1"
+        android:layout_width="128dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/ic_food"
+        android:backgroundTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/txtCodes2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="164dp"
+        android:text="6 Donas"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imvProductCode2"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <ImageView
+        android:id="@+id/imvProductCode2"
+        android:layout_width="128dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="258dp"
+        android:background="@drawable/ic_food"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvProductCode1" />
+
+    <TextView
+        android:id="@+id/txtCodes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="141dp"
+        android:text="2 Alfajores"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imvProductCode1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="259dp"
+        android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit laoreet cursus dictumst, non erat sed..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imvProductCode2"
+        app:layout_constraintTop_toBottomOf="@+id/txtCodes2" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="179dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="59dp"
+        android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit laoreet cursus dictumst, non erat sed..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imvProductCode1"
+        app:layout_constraintTop_toBottomOf="@+id/txtCodes1" />
+
+    <ImageButton
+        android:id="@+id/btnBackCodes"
+        android:layout_width="65dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

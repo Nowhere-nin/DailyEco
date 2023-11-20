@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_publicar_productos"
+            android:title="Publicar productos" />
+        <item
+            android:id="@+id/nav_escanear_codigos"
+            android:title="Escanear códigos" />
+        <item
+            android:id="@+id/nav_mis_codigos"
+            android:title="Mis códigos" />
+        <item
+            android:id="@+id/nav_cerrar_sesion"
+            android:title="Cerrar sesión" />
+    </group>
+
+</menu>
